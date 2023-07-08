@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "description": "Javascript Chord Charts",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "webpack-dev-server --port 8203 --disable-host-check --env.NODE_ENV=development --env.TAG_NAME=dev --mode development --config webpack.config.js",
     "build": "npx webpack --env.NODE_ENV=production --progress --mode production",
